@@ -1,5 +1,5 @@
 # OnlyOne
-**Allow only one instance of a game to run at the same time without using Lockfiles**
+**Allow only one instance of a game to run at the same time without using lock-files and while forwarding command line arguments to the running application.**
 
 This is a GDscript port of [Socket_Singleton](https://github.com/emboiko/Socket_Singleton/tree/master). All credit goes to @emboiko on Github for creating it.
 Use it by calling the ```only_one``` function which returns either ```true```or ```false``` based on the current instance being the only one.
